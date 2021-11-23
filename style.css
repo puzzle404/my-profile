@@ -1,0 +1,150 @@
+body {
+  margin: 70px;
+  background-color: #429ea6;
+  font-family: "Roboto", serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.presentacion {
+  padding: 0px 4px 0px 4px;
+  background: white;
+  box-shadow: 7px 7px 10px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+}
+.presentacion:hover {
+  background-color: #e4fafa;
+}
+.pasiones {
+  padding: 0px 4px 0px 4px;
+  background: white;
+  box-shadow: 7px 7px 10px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+}
+.pasiones:hover {
+  background-color: #e4fafa;
+}
+.pasatiempos {
+  padding: 0px 4px 0px 4px;
+  background: white;
+  box-shadow: 7px 7px 10px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+}
+.pasatiempos:hover {
+  background-color: #e4fafa;
+}
+.pasatiempos h3 {
+  text-align: center;
+}
+.proyectos {
+  padding: 0px 4px 0px 4px;
+  background: white;
+  box-shadow: 7px 7px 10px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  text-decoration: center;
+}
+
+.proyectos:hover {
+  background-color: #e4fafa;
+}
+#banner {
+  text-align: center;
+  padding: 0px 4px 0px 4px;
+  background-image: url(https://media.istockphoto.com/photos/success-woman-hiker-hiking-on-sunrise-mountain-peak-young-woman-with-picture-id1285296688?s=2048x2048);
+  box-shadow: 7px 7px 10px rgb(0 0 0 / 10%);
+  background-size: cover;
+  border-radius: 10px;
+  background-position-y: 296px;
+}
+#banner:hover {
+  background-color: #e4fafa;
+}
+.redes {
+  background: white;
+  box-shadow: 7px 7px 10px rgb(0 0 0 / 10%);
+  padding: 0px 4px 0px 4px;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.redes:hover {
+  background-color: #e4fafa;
+}
+
+.redes ul li {
+  display: inline;
+  margin: 10px;
+  font-size: 30px;
+  margin-left: 0px;
+}
+.redes ul li:hover {
+  height: 10px;
+  background: yellow;
+}
+#banner h1 {
+  margin-top: 50px;
+  margin-left: 20px;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
+.container h3 {
+  padding: 22px;
+}
+body h3 {
+  text-align: center;
+}
+.profile-picture {
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  margin-top: 20px;
+}
+.parrafo-padding {
+  padding: 20px 30px;
+}
+.btn-hover {
+  background-color: blue;
+  color: white;
+  width: 90px;
+  display: inline-block;
+  margin: 12px 375px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px 20px;
+}
+.btn-hover:hover {
+  background-color: rgb(241, 83, 83);
+}
+#profile-picture {
+  margin-left: 96px;
+  margin-top: 52px;
+}
+.titulo-orientacion {
+  color: white;
+  font-weight: bold;
+}
